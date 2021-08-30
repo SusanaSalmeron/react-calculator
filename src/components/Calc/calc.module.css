@@ -1,0 +1,27 @@
+.calcBody{
+    display: grid;
+    width: 70%;
+    height: 70vh;
+    margin: 5em 0 0 5em;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+
+.view input{
+    text-align: right;
+    padding-right: 0.5em;
+    font-size: 50px;
+    width: calc(100% - 2em);
+    height: 6vh;
+    margin-top: 1em;
+    background-color: lightgray;
+    border: 1px solid black;
+   
+}
+
+.keys{
+    width: calc(100%) - 2em;;
+    height: 50vh;
+    margin: 3em 1em 0 1em;
+    
+}
