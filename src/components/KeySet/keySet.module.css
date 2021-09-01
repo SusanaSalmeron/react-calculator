@@ -6,22 +6,23 @@
 }
 
 
-.number, .total{
-    width: 30%;
+.number{
+    width: 25%;
     height: 10vh;
     font-size: 5em;
 }
 
-.operator{
-    width: 22.6%;
+.operator, .total{
+    width: 20%;
     height: 10vh;
     font-size: 5em;
 
 }
 
-.zero{
-    width: 60%;
+.zero, .erase{
+    width: 75%;
     height: 10vh;
     font-size: 5em;
 }
+
 

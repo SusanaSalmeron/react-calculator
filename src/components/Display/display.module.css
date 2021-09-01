@@ -1,0 +1,12 @@
+.view{
+    text-align: right;
+    padding-right: 0.5em;
+    font-size: 50px;
+    width: 88%;
+    height: 6vh;
+    margin: 0  1em 0.5em 0.3em;
+    background-color: lightgray;
+    border: 1px solid black;
+    
+   
+}
