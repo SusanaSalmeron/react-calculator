@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import CalculatorContext from '../../context/CalculatorContext';
 import style from './keySet.module.css';
-import calculate from '../../services/calculatorService';
+import calculate from '../../services/calculatorService2';
 
 
 export default function CalcKeys() {
