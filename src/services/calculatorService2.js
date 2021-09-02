@@ -50,10 +50,9 @@ export default function calculate(arr) {
     let accum = 0
 
     const reducedArr = reduceByPriorityOperation(arr)
-
+    if (reducedArr.length === 1) return reducedArr[0]
     for (let i = 0; i < reducedArr.length; i++) {
         //operations
-
         if (isNaN(arr[i])) {
             accum = operateDisAndDat(accum, stringNum, op)
             op = arr[i]
